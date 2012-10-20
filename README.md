@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## About
 Comments Spam Blocker plugin for RailwayJS MVC framework.
 
@@ -29,3 +30,9 @@ Comments Spam Blocker plugin for RailwayJS MVC framework.
 ## License
 
 MIT
+=======
+railway-comments
+================
+
+Comments Spam Blocker plugin for RailwayJS MVC framework
+>>>>>>> d036c22e91db7c534c842ed05d5e9aa1a5cb00fc
