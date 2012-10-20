@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "Roberto Boschetto",
+    "email": "rb19372@gmail.com"
+  },
+  "name": "railway-comments",
+  "description": "Comments plugin for RailwayJS MVC framework",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/roboit/railway-comments"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test/*_test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "mailer":              "*"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  },
+  "readme": "## About\nComments Spam Blocker plugin for RailwayJS MVC framework.\n\n## Usage\n\n`npmfile.js`\n\n    require('railway-comments');\n\n`posts_controller.js`\n\n   action(function show() {\n      Comment.all({where: {postId: params.id}, order: 'created_at'}, function(err, comments) {\n        render({ comments: comments });\n      });\n   });\n                     \n`comments_controller.js`\n   action(function index() {\n       Comment.commentSave({limit: 10, page: page}, function (err, posts) {\n           if (err) render({comments: comments});\n       });\n   });\n   \n`app/views/posts/show.ejs`:\n\n   comments(posts);\n\n## License\n\nMIT\n",
+  "_id": "railway-comments@0.0.1"
+}
