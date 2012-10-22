@@ -4,7 +4,7 @@
     "email": "rb19372@gmail.com"
   },
   "name": "railway-comments",
-  "description": "Comments Spam Blocker plugin for RailwayJS MVC framework",
+  "description": "Comments plugin for RailwayJS MVC framework",
   "version": "0.0.1",
   "repository": {
     "url": "https://github.com/roboit/railway-comments"
@@ -24,3 +24,4 @@
   },
   "_id": "railway-comments@0.0.1"
 }
+
